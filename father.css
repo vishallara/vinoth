@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+
+
+.design{
+    background-color: black;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 140px;
+    border: 7px solid black;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10%;
+    height: 964px;
+    width: 654px;
+
+
+}
+.div{
+    background-color: bisque;
+
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: 3px solid rgb(191, 68, 68);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15%;
+
+}
+
+.div:hover{
+    transform: scale(1.2);
+    z-index:1
+}
+
+.div{
+    transition: 1s;
+}
